@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "Anuradha",
+      "branch": "cse",
+      "age": 21,
+      "id": "ZIQouGPxovI"
+    },
+    {
+      "name": "Anvi",
+      "age": "14",
+      "branch": "cse",
+      "id": "Vyl9VPkh12Q"
+    },
+    {
+      "name": "jay",
+      "age": "15",
+      "branch": "mechnical",
+      "id": "ks6U8oMvlr0"
+    },
+    {
+      "name": "Upasana",
+      "age": "26",
+      "branch": "AIML",
+      "id": "NmTQIvVn0sw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
