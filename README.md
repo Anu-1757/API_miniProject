@@ -1,16 +1,90 @@
-# React + Vite
+# API Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple CRUD (Create, Read, Update, Delete) web application built using React and JSON Server. This project demonstrates API integration using the Fetch API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- View all users
+- Add a new user
+- Edit existing user details
+- Delete users
+- Responsive UI
+- API integration using Fetch API
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- JSON Server
+- React Router DOM
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── App.jsx
+ ├── main.jsx
+db.json
+package.json
+```
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/API-miniProject.git
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start JSON Server
+
+```bash
+npx json-server db.json
+```
+
+4. Start React application
+
+```bash
+npm run dev
+```
+
+## 📸 Features Implemented
+
+- Create User
+- Read Users
+- Update User
+- Delete User
+- Dynamic Routing
+- API Requests with Fetch
+
+## 📚 Learning Outcomes
+
+- React Components
+- React Hooks (useState, useEffect)
+- React Router
+- REST API
+- CRUD Operations
+- Fetch API
+- JSON Server
+
+## 👩‍💻 Author
+
+**Anuradha Lambate**
+
+Electronics & Telecommunication Engineering Student  
+Aspiring Full Stack Developer
+
+---
+
+⭐ If you found this project useful, don't forget to give it a star!
